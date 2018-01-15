@@ -1,0 +1,100 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  display: block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 1em;
+}
+
+form div {
+  margin: 1em;
+  display: inline-block;
+}
+
+.campuses {
+  margin: 2em;
+}
+
+.students{
+  margin: 2em;
+}
+
+.addCampus {
+  position: relative;
+  left: 2em;
+  top: 15px;
+}
+
+.campusButton {
+  position: relative;
+  left: 45px;
+}
+
+.addStudent {
+  position: relative;
+  left: 2em;
+}
+
+.box-container {
+  width:300px;
+  border:1px solid #000;
+}
+
+.headerDivider {
+     border-left:1px; 
+     border-right:1px; 
+     position: absolute;
+}
+
+.componentDivider {
+    display:flex;
+     border-left:1px; 
+     border-right:1px; 
+     left: 330px;
+     top: 6em;
+     position: absolute;
+     margin: 2em;
+}
+
+.componentName {
+    display:flex;
+     border-left:1px; 
+     border-right:1px; 
+     left: 350px;
+     top: 4em;
+     position: absolute;
+     margin: 2em;
+}
+
+.seeStudents {
+  position: relative;
+  right: 5em;
+  top: 15px;
+}
+
+.seeCampus {
+  position: relative;
+  right: 5em;
+}
+
+.student {
+  margin:4em;
+}
+
+.componentStudent {
+     border-left:1px; 
+     border-right:1px; 
+     left: 400px;
+     top: 6em;
+     position: absolute;
+     margin: 2em;
+}
